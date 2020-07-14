@@ -1,42 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Curriculum vitae</title>
+	<title>Curriculum Vitae</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	<link rel="icon" href="image/icon/download.jpg">
 	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			outline: 0;
+		}
 		body {
 			width: 80%;
+			margin: 2px auto;
 		}
 
 		section{
-			padding: 0% 0% 0% 2%;
+			padding: ;
 		}
 
 		.contantBody{
 			margin: 20px;
 		}
+		img {
+			border-width: 2px;
+			border-style: solid dotted;
+		}
+		.career {
+			border: 2px solid tomato;
+			font-size: 20px; font-weight: 2px;
+			margin-top: 2px;
+		}
+		.language {
+			font-size: 20px;
+			border: 2px solid violet;
+			outline: 2px dotted blue;
+			outline-offset: 2px;
+			margin-top: 4px;
+		}
+		table {
+			border: 2px solid green;
+		}
+
 	</style>
 </head>
 <body>
+	<header>
+		<h1 style="text-align: center; background-color: antiquewhite;"><u>Curriculum Vitae</u></h1>
+	</header>
 	<section >
-		<h1 style="text-align: center; background-color: antiquewhite;"><u>Curriculum vitae</u></h1>
-
+		
 		<div class="contantBody">
-			<img style="height: 140px; width: 120px; float: right;" src="image/Anik.jpg" alt="Anik">
-			<h2><u>Arnab Das </u></h2>
+			<img style="height: 140px; width: 120px; float: right;" src="resources/image/Anik.jpg" alt="Anik">
+			<h2><u>Arnab Das Anik</u></h2>
 			<h3><u>Contact & Address:</u></h3>
 			<p><strong>Email:</strong> anik6881@gmail.com<br/>
 			<strong>Address:</strong> Chittagong, Bangladesh.<br/>
 			<strong>Phone No:</strong> 01781707678<br/>
 			</p>
-			
+			<br>
+			<br>
 			<h3 style="background-color: antiquewhite;"> Career Objective :</h3>
-			<pre style="font-size: 20px; font-weight: 2px;">I am a Designiner. I want to learn a lot of more work and want to work. The main purpose <br>
-of my work is to do a good work in harmony with everyone. I have always agreed to give me <br>
-a lot of time for my work.</pre>
-			<h3 style="background-color: antiquewhite;">Language Competency :</h3>
-			<p style="font-size: 20px;"><strong>English:</strong> Good<br>
-			<strong>Bangla:</strong> Exelend<br></p>
+			<p class="career">I am a Designiner. I want to learn a lot of more work and want to work. The main purposeof my work is to do a good work in harmony with everyone. I have always agreed to give mea lot of time for my work.</p><br>
+			<h3 style="background-color: antiquewhite; margin-top: 5px;">Language Competency :</h3>
+			<p class="language"><strong>English:</strong> Good<br>
+			<strong>Bangla:</strong> Exelend<br></p> <br>
+			<h3 style="background-color: antiquewhite; margin-top: 5px;">Skill :</h3>
+			<table border="">
+			    <tbody>
+			    	<tr>
+				        <th rowspan="2" colspan="3">Web Language :</th>
+				        <td>HTML</td>
+				        <td>CSS</td>
+				    </tr>
+				    <tr>
+				        <td>PHP</td>
+				        <td>JS</td>
+				    </tr>
+				    <tr>
+				        <th colspan="3">FrameWork :</th>
+				        <td>Lumen</td>
+				    </tr>
+				</tbody>
+			</table>
 		</div>
 	</section>
 </body>
